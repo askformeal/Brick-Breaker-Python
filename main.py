@@ -150,8 +150,7 @@ def generate_bricks(rows, cols):
 
 
 def main():
-    clock = pygame.time.Clock()
-
+    clock = pygame.time.Clock(）
     paddle_x = WIDTH/2 - PADDLE_WIDTH/2
     paddle_y = HEIGHT - PADDLE_HEIGHT - 5
     paddle = Paddle(paddle_x, paddle_y, PADDLE_WIDTH, PADDLE_HEIGHT, "black")
